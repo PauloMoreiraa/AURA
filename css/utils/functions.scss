@@ -1,0 +1,3 @@
+@mixin boundaries ($vertical: 0) {
+    padding: $vertical calc((100% - 1280) / 2);
+}
