@@ -388,5 +388,37 @@ body {
   width: 300px;
 }
 
+.glide .person {
+  background-color: #FFF;
+  border-radius: 4px;
+}
+
+.glide .person__name {
+  background: -webkit-linear-gradient(#165b94, #66a8df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.glide .person__function {
+  color: #94a3b6;
+}
+
+.glide .person__redes {
+  font-size: 30px;
+}
+
+.glide .person__redes a {
+  text-decoration: none;
+  color: #a4a4a4;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.glide .person__redes a:hover {
+  color: #48abff;
+}
+
 /*Footer*/
 /*# sourceMappingURL=style.css.map */

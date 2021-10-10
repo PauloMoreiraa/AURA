@@ -320,6 +320,36 @@ body{
             width: 300px;
         }
     }
+    .person{
+        background-color: #FFF;
+        border-radius: 4px;
+        
+
+        &__name{
+            background: -webkit-linear-gradient(#165b94, #66a8df);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        &__function{
+            color: #94a3b6;
+        }
+
+        &__redes{
+            font-size: 30px;
+            a{
+                text-decoration: none;
+                color: #a4a4a4;
+                transition: .4s;
+
+                &:hover{
+                   color: #48abff;
+                }
+            }
+        }
+    }
 }
 
 
