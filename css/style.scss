@@ -262,6 +262,7 @@ body{
     //background-color: tomato;
     display: flex;
     padding: 20px;
+    padding-top: 50px;
     height: 70vh;
 
     &__icon{
@@ -305,7 +306,15 @@ body{
 
 
 
-//Carousel
+//Carousel Integrantes
+.title-integrantes{
+    color: #a4a4a4;
+    background-color: transparent;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
 
 .glide{
    
@@ -349,6 +358,55 @@ body{
                 }
             }
         }
+    }
+}
+
+/*Projeto Atual*/
+.title-project{
+    color: #a4a4a4;
+    background-color: transparent;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+    font-size: 20px;
+}
+.body-usprojects{
+    //background-color: tomato;
+    display: flex;
+    padding: 20px;
+    height: 70vh;
+
+    
+    &__text{
+        background: url('../img/ca1.png');
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: top;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px #d3d3d3;
+        text-align: center;
+        padding: 40px;
+
+        h4{
+            font-size: 30px;
+            background: -webkit-linear-gradient(#1a629c, #48a6f3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+    @media (max-width: 961px){
+        flex-direction: column;
+        height: auto;
     }
 }
 

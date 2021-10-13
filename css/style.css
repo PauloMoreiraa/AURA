@@ -311,6 +311,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 20px;
+  padding-top: 50px;
   height: 70vh;
 }
 
@@ -377,6 +378,15 @@ body {
   }
 }
 
+.title-integrantes {
+  color: #a4a4a4;
+  background-color: transparent;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
 .glide__slide {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -418,6 +428,74 @@ body {
 
 .glide .person__redes a:hover {
   color: #48abff;
+}
+
+/*Projeto Atual*/
+.title-project {
+  color: #a4a4a4;
+  background-color: transparent;
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-usprojects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  height: 70vh;
+}
+
+.body-usprojects__text {
+  background: url("../img/ca1.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 10px #d3d3d3;
+          box-shadow: 10px 10px 10px #d3d3d3;
+  text-align: center;
+  padding: 40px;
+}
+
+.body-usprojects__text h4 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#1a629c, #48a6f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.body-usprojects__text p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 961px) {
+  .body-usprojects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
 }
 
 /*Footer*/
