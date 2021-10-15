@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aura</title>
-
-    <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
     
     <!--Glide JS-->
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
@@ -21,6 +18,9 @@
 
     <!-- Ícone -->
     <link rel="icon" href="img/icone.png">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
@@ -176,6 +176,7 @@
         <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
             <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+            
         </div>
       </div>
     
@@ -199,37 +200,51 @@
     <div class="glide2">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
-            <li class="glide__slide">
-                <section class="body-usprojects">
-                    <div class="body-usprojects__text">
-                        <img src="img/branco.png" alt="">
-                        <p>A plataforma que mais te ajuda para os vestibulares!</p>
-                    </div>
-                </section>
-            </li>
-            <li class="glide__slide">
-                <section class="body-usprojects">
-                    <div class="body-usprojects__text">
-                        <img src="img/branco.png" alt="">
-                        <p>A plataforma que mais te ajuda para os vestibulares!</p>
-                    </div>
-                </section>
-            </li>
-            <li class="glide__slide">
-                <section class="body-usprojects">
-                    <div class="body-usprojects__text">
-                        <img src="img/branco.png" alt="">
-                        <p>A plataforma que mais te ajuda para os vestibulares!</p>
-                    </div>
-                </section>
-            </li>
-          </ul>
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">aaaa</button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
-          </div>
-        </div>
+            <div class="person">
+                <li class="glide__slide">
+                    <section class="body-usprojects">
+                        <div class="body-usprojects__text">
+                            <img src="img/branco.png" alt="">
+                            <p>A plataforma que mais te ajuda para os vestibulares!</p>
+                        </div>
+                    </section>
+                </li>
+            </div>
+        </ul>
+        </div> 
       </div>
+
+      <!--Parcerias-->
+
+      <div class="wave-blue"></div>
+
+      <section class="sec-blue">
+        <div class="title-friends">
+            <h4>Nossos Parceiros</h4>
+        </div>
+        <section class="body-friends">
+        <div class="body-friends__icon">
+            <img src="img/Partnership-pana.svg" alt="sobre">
+        </div>
+        <div class="body-friends__text">
+            <h4>CONHEÇA NOSSOS AMIGOS!</h4>
+            <p>Nossos Amigos também são da área de desenvolvimento e você pode sugerir eles para serviços que você necessita também! Com garantia de qualidade e conforto para uma solução que você precisa na sua empresa ou mesmo serviço pessoal.</p>
+        </div>
+    </section>
+    
+      </section>
+
+
+      
+    
+       
+   
+    <!--<section class="body-usprojects">
+                    <div class="body-usprojects__text">
+                        <img src="img/branco.png" alt="">
+                        <p>A plataforma que mais te ajuda para os vestibulares!</p>
+                    </div>
+                </section>-->
  
 
     
@@ -245,33 +260,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script>
-        const config = {
-            type: 'carousel',
-            perView: 4,
-            breakpoints: {
-                1069:{
-                    perView: 3,
-                },
-                817:{
-                    perView: 2,
-                },
-                535:{
-                    perView: 1,
-                }
-            }
-        }
-        
-
-        const config2 = {
-            type: 'carousel',
-            perView: 1,
-        }
-
-        new Glide('.glide', config).mount()
-
-        new Glide('.glide2', config2).mount()
-    </script>
+    <script src="js/carousel.js"></script>
     <script src="js/mobile-navbar.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
