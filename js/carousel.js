@@ -1,6 +1,6 @@
 const config = {
     type: 'carousel',
-    perView: 4,
+    perView: 4.5,
     autoplay: '2000',
     breakpoints: {
         1069:{
@@ -18,7 +18,7 @@ const config = {
 
 const config2 = {
     type: 'carousel',
-    perView: 1,
+    perView: 1.4,
     autoplay: '4000',
 }
 
