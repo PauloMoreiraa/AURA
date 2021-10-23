@@ -204,18 +204,13 @@ body{
 
 /*Sobre*/
 
-.title{
-    color: #a4a4a4;
-    background-color: transparent;
-    margin-left: 60px;
-    font-size: 20px;
-}
+
 
 .body-about{
     //background-color: tomato;
     display: flex;
     padding: 20px;
-    height: 70vh;
+    height: 400px;
 
     &__icon{
         background:linear-gradient(60deg, #163149, #48abff);
@@ -282,13 +277,26 @@ body{
     }
 }
 
+.title-atual{
+    background: -webkit-linear-gradient(#1a629c, #48a6f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
 //Integrantes
-.title-integrantes{
-    color: #a4a4a4;
+.title{
+    background: -webkit-linear-gradient(#1a629c, #48a6f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 30px;
     margin-bottom: -20px;
-    text-align: center;
-    font-size: 20px;
+    margin-left: 60px;
+    font-size: 30px;
+    
 }
 
 .cards{
@@ -348,8 +356,8 @@ body{
         }
 
         &__photo{
-            width: 30vh;
-            height: 30vh;
+            width: 33vh;
+            height: 33vh;
 
             img{
                 width: 100%;
@@ -368,7 +376,7 @@ body{
     display: flex;
     padding: 20px;
     padding-top: 50px;
-    height: 70vh;
+    height: 400px;
 
     &__icon{
         background-color: #FFF;
@@ -437,14 +445,7 @@ body{
 
 
 /*Projeto Atual*/
-.title-project{
-    color: #a4a4a4;
-    background-color: transparent;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 20px;
-}
+
 .container-project{
 
     .glide{
@@ -502,18 +503,22 @@ body{
 }
 
 .title-friends{
-    color: #ffffff;
+    background: -webkit-linear-gradient(#aedbff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-color: transparent;
     margin-left: 60px;
-    padding-top: 50px;
-    font-size: 20px;
+    font-size: 30px;
 }
 .title-friends2{
-    color: #ffffff;
+    background: -webkit-linear-gradient(#aedbff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-color: transparent;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 20px;
+    margin-left: 60px;
+    margin-bottom: -30px;
+    font-size: 30px;
+    margin-top: 30px;
 }
 
 
@@ -521,7 +526,7 @@ body{
     //background-color: tomato;
     display: flex;
     padding: 20px;
-    height: 70vh;
+    height: 400px;
 
     &__icon{
         background:linear-gradient(60deg, #85c6ff, #d7ecff);
@@ -609,7 +614,7 @@ body{
         transition: .5s;
         
         &__bi{
-            width: 250px;
+            width: 60vh;
             height: 150px;
             background: linear-gradient(60deg, #080808, #242424);
             align-items: center;
@@ -627,7 +632,7 @@ body{
             }
         }
         &__ev{
-            width: 250px;
+            width: 60vh;
             height: 150px;
             background: linear-gradient(60deg, #f81650, #5961f9);
             align-items: center;
@@ -646,7 +651,7 @@ body{
         }
 
         &__lu{
-            width: 250px;
+            width: 60vh;
             height: 150px;
             background: linear-gradient(60deg, #002093, #0137e8);
             align-items: center;
@@ -665,7 +670,7 @@ body{
         }
 
         &__sa{
-            width: 250px;
+            width: 60vh;
             height: 150px;
             background: linear-gradient(60deg, #66b3f8, #3d21b4);
             align-items: center;
@@ -684,8 +689,8 @@ body{
         }
 
         &__photo{
-            width: 200px;
-            height: 200px;
+            width: 160px;
+            height: 160px;
 
             img{
                 width: 100%;
