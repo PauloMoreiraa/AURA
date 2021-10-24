@@ -175,7 +175,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  min-width: 100%;
   left: 0;
   bottom: -2px;
   position: absolute;
@@ -620,7 +619,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  min-width: 100%;
   left: 0;
   position: absolute;
 }
