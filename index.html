@@ -33,12 +33,12 @@
             <button id="btn-mobile">
                 <ion-icon name="reorder-three-outline"></ion-icon>
             </button>
-            <ul id="menu">
-                <li><a href="">Início</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Parceiros</a></li>
-                <li><a href="">Contato</a></li>
+            <ul id="menu" class="menutp">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
        </nav>
     </header>
@@ -46,7 +46,7 @@
     <!--Index-->
     <main>
         <div class="hero">
-            <div class="hero__text">
+            <div class="hero__text" id="hero">
                 <h4>Seja bem-vindo(a)!</h4>
                 <p>Atraia-se para o futuro.</p>
             </div>
@@ -55,7 +55,7 @@
     </main>
 
     <!--Sobre-->
-    <div class="title">
+    <div class="title" id="sobre">
         <h4>Sobre Nós</h4>
     </div>
     <section class="body-about">
@@ -209,7 +209,7 @@
 
     <!--Nossos Projetos-->
       
-    <section class="body-projects">
+    <section class="body-projects" id="projetos">
         <div class="body-projects__text">
             <h4>NOSSOS PROJETOS</h4>
             <p>Nossos projetos são baseados no uso de tecnologias como HTML, JS, PHP, SQL e React Native, assim, extraindo o maximo e o melhor de cada tecnologia, a fim de promover uma melhor experiencia ao usuario, trazendo interatividade, facil usabilidade e rapido aprendizado.</p>
@@ -258,7 +258,7 @@
       <div class="wave-blue"></div>
 
     <section class="sec-blue">
-        <div class="title-friends">
+        <div class="title-friends" id="parceiros">
             <h4>Parcerias</h4>
         </div>
         <section class="body-friends">
@@ -306,14 +306,16 @@
             </div>
     </section>
     
-    <section class="contact">
+    <section class="contact" id="contato">
         <div class="body-contact">
             <div class="body-contact__text">
                 <h4>FALE CONOSCO</h4>
-                <input class="input" type="text" placeholder="Nome">
-                <input  class="input" type="text" placeholder="Email">
-                <textarea placeholder="Mensagem" name="" id="" cols="30" rows="5"></textarea>
-                <input class="bt" type="submit" placeholder="ENVIAR">
+                <form>
+                    <input class="input" type="text" placeholder="Nome">
+                    <input  class="input" type="email" placeholder="Email">
+                    <textarea placeholder="Mensagem" name="" id="" cols="30" rows="5"></textarea>
+                    <input class="bt" type="submit" placeholder="ENVIAR">
+                </form>
             </div>
             <div class="body-contact__icon">
                 <img src="img/Contact us-amico.svg" alt="sobre">
@@ -333,8 +335,8 @@
             <li><a href="#"><img src="img/LOGOATUAL.png" alt="AURA"></a></li>
         </ul>
        <ul class="footer__social">
-           <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
-           <li><a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+           <li><a href="https://www.facebook.com/Aura-co-109146718177587" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+           <li><a href="https://twitter.com/AuraCo11" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
            <li><a href="https://www.instagram.com/aura_companhia/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
        </ul>
        <br>
@@ -345,6 +347,11 @@
            <li><a href="#">Parceiros</a></li>
            <li><a href="#">Contato</a></li>
        </ul>
+        <p class="box-mail">
+           <ion-icon name="mail"></ion-icon>
+           <span>auracompany.guaianases@gmail.com</span>
+        </p>
+            
             <p>AURA 2021© | Todos os direitos reservados.</p> 
     </footer>
 
