@@ -171,10 +171,11 @@ body {
 .hero__wave {
   width: 100%;
   height: 200px;
+  max-height: 400px;
   background-image: url("../img/wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   left: 0;
   bottom: -2px;
   position: absolute;
@@ -618,7 +619,7 @@ body {
   background-image: url("../img/wave2.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   left: 0;
   position: absolute;
 }
