@@ -161,7 +161,7 @@ body{
         background-image: url('../img/wave.svg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
         left: 0;
         bottom: -2px;
         position: absolute;
@@ -486,13 +486,14 @@ body{
 
 .wave-blue{
     width: 100%;
-        height: 200px;
-        background-image: url('../img/wave2.svg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        left: 0;
-        position: absolute;
+    max-height: 400px;
+    height: 200px;
+    background-image: url('../img/wave2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    left: 0;
+    position: absolute;
 }
 
 .sec-blue{
